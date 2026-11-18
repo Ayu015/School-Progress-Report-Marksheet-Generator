@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: navy;
+    font-family: "Times New Roman", serif;
+}
+
+.marksheet {
+    width: 98%;
+    margin: 35px auto;
+    padding: 40px;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: navy;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    min-height: 110px;
+}
+
+.school_logo {
+    position: absolute;
+    left: 25px;
+}
+
+.school_logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.marksheet {
+    width: 98%;
+    margin: 0 auto 35px;
+    padding: 20px 25px;
+    background-color: white;
+}
+
+.school_details {
+    width: 100%;
+}
+
+.school_details h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.school_details p {
+    font-size: 12px;
+    margin: 8px 0;
+}
+
+
+.school_details h3 {
+    margin-top: 12px;
+    font-weight: normal;
+}
+
+
+.student_details {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    font-size: 13px;
+}
+
+.left-details,
+.right-details {
+    width: 48%;
+}
+
+.student_details p {
+    margin-bottom: 10px;
+}
+
+
+.marks_section table {
+    border-left: 1px solid navy;
+    border-right: 1px solid navy;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.marks_section th,
+.marks_section td {
+    padding: 8px;
+    text-align: center;
+}
+
+.marks_section th:first-child,
+.marks_section td:first-child {
+    text-align: left;
+}
+
+.marks_section thead tr:first-child {
+    background-color: navy;
+    color: white;
+}
+
+#second-child{
+    border-left: 1px solid navy;
+    border-right: 1px solid navy;
+}
+
+.marks_section tbody tr {
+    border-left: 1px solid navy;
+    border-right: 1px solid navy;
+}
+
+.marks_section tbody tr:last-child {
+    border-bottom: 1px solid navy;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10px;
+    font-size: 12px;
+    min-height: 250px;
+}
+
+.bottom-left {
+    width: 65%;
+}
+
+.grade-legend {
+    width: 30%;
+    padding-top: 5px;
+}
+
+.remarks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.remarks-line {
+    flex: 1;
+    border-bottom: 1px solid black;
+}
+
+
+.promoted {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.promoted-line {
+    width: 150px;
+    border-bottom: 1px solid black;
+}
+
+
+.signatures {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.principal-signature{
+    position: relative;
+    height: 30px;
+    width: 50px;
+    /* top: 6px; */
+    bottom: 8px;
+}
+
+.signature {
+    width: 30%;
+}
+
+.signature-space {
+    height: 20px;
+}
+
+.teacher-name {
+    height: 20px;
+}
+
+.signature p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+
+
+.notes {
+    margin-top: 45px;
+    font-size: 14px;
+}
+
+.notes strong {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.notes p {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+
+.grade-row {
+    display: grid;
+    grid-template-columns: 145px 15px 1fr;
+    align-items: start;
+    margin-bottom: 15px;
+    gap: 5px;
+}
+
+.grade-row strong {
+    font-weight: bold;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marksheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header class="header">
+
+            <div class="school_logo">
+                <img src="./img/avm_logo.png" alt="school logo">
+            </div>
+        
+            <div class="school_details">
+                <h2>SMT. RAMDEVI SOBHRAJ BAJAJ ARYA VIDYA MANDIR</h2>
+
+                <p>287, Arya Vidya Mandir Marg, JVPD Scheme</p>
+
+                <h3>PROGRESS REPORT</h3>
+            </div>
+
+        </header>
+        
+        <div class="marksheet">
+            <section class="student_details">
+                <div class="left-details">
+
+                    <p><b>Student's Name :</b> <span id="studentName"></span></p>
+
+                    <p><b>Roll No. :</b> <span id="rollNo"></span></p>
+
+                    <p><b>Admission No. :</b> <span id="admissionNo"></span></p>
+
+                    <p><b>Class and Section :</b> <span id="studentClass"></span></p>
+
+                </div>
+                <div class="right-details">
+
+                    <p><b>House Category:</b> <span id="houseCategory"></span></p>
+
+                    <p><b>Academic Year:</b> <span id="academicYear"></span></p>
+
+                    <p><b>Date :</b> 12/11/2026</p>
+
+                </div>
+            </section>
+            <section class="marks_section">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><b>SCHOLASTIC AREAS:</b></th>
+                                <th colspan="2"><b>Terminal</b></th>
+                                <th colspan="2"><b>Final</b></th>
+                            </tr>
+                            <tr id="second-child">
+                                <th>Subject</th>
+                                <th>Term-1 Internal</th>
+                                <th>Subject Average</th>
+                                <th>Term-2 Internal</th>
+                                <th>Subject Average</th>
+                            </tr>
+                        </thead>
+                        <tbody id="marksTable">
+
+                        </tbody>
+                    </table>
+            </section>
+                <!-- Bottom Section -->
+
+            <section class="bottom-section">
+
+                <!-- Left Side -->
+                <div class="bottom-left">
+
+                    <div class="remarks">
+                        <strong>Remarks:</strong>
+                        <span class="remarks-line"></span>
+                    </div>
+
+                    <div class="promoted">
+                        <strong>Promoted to Class</strong>
+                        <span class="promoted-line"></span>
+                    </div>
+
+                    <!-- Signatures -->
+                    <div class="signatures">
+
+                        <div class="signature">
+                            <div class="signature-space"></div>
+                            <p>Subject Head</p>
+                        </div>
+
+                        <div class="signature">
+                            <div class="teacher-name">Padma Venkatraman</div>
+                            <p>Class Teacher</p>
+                        </div>
+
+                        <div class="signature">
+                            <div class="signature-space">
+                                <img class="principal-signature" src="./img/signature.png" alt="signature">
+                            </div>
+                            <p>Principal</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="notes">
+
+                        <strong><u>PLEASE NOTE</u></strong>
+
+                        <p>1. A rank in the class is indicated for the 1st, 2nd or 3rd position only.</p>
+
+                        <p>2. The 1st, 2nd or 3rd position in each subject is indicated by ⁎ / ✓ / ☉ respectively.</p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Right Side: Grading Criteria -->
+                <div class="grade-legend">
+
+                    <div class="grade-row">
+                        <strong>A+ - Distinction</strong>
+                        <span>=</span>
+                        <span>89.50% - 100%</span>
+                    </div>
+
+                    <div class="grade-row">
+                        <strong>A - 1st Division</strong>
+                        <span>=</span>
+                        <span>74.50% - 89.49%</span>
+                    </div>
+
+                    <div class="grade-row">
+                        <strong>B - 2nd Division</strong>
+                        <span>=</span>
+                        <span>59.50% - 74.49%</span>
+                    </div>
+
+                    <div class="grade-row">
+                        <strong>C - 3rd Division</strong>
+                        <span>=</span>
+                        <span>39.50% - 59.49%</span>
+                    </div>
+
+                    <div class="grade-row">
+                        <strong>D - Fail</strong>
+                        <span>=</span>
+                        <span>Below 39.5 (if fail in English)</span>
+                    </div>
+
+                </div>
+
+            </section>
+        
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
